@@ -22,8 +22,6 @@ body {
 .navbar {
     background-color: lightseagreen;
     padding: 10px 0;
-    display: grid;
-    grid-template-columns : 1fr 1fr 1fr 1fr;
     
   }
   
@@ -31,10 +29,13 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: grid;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
   }
   
   .nav-list li {
     display: inline;
+      margin: 20px;
   }
   
   .nav-list li a {
